@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+         author="pili-pili"
+         version="1.0_2016-10-07"
+         description="Natural Monuments / Trees / Stones"
+         shortdescription="Natural Monuments / Trees / Stones"
+         de.description="Naturdenkmale und Bäume"
+         de.shortdescription="Naturdenkmale"
+         icon="natural_tree.png"
+         baselanguage="de">
+		 
+	 
+<chunk id="Baumart">	   
+	
+	<group name="Acer" de.name="Ahorn" icon="presets/landmark/trees_broad_leaved.svg" >
+		<item name="other" de.name="allgemein" >
+			<key key="genus" value="Acer" />
+			<key key="genus:de" value="Ahorn" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />			
+			<text key="species" text="Baumart" />
+			<text key="species:de" text="Baumart (deutsch)" />				
+			<reference ref="Baumdetails" />
+			</item>
+		<item name="Acer pesudoplatanus" de.name="Berg-Ahorn" >
+		    <key key="genus" value="Acer" />
+			<key key="genus:de" value="Ahorn" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Acer pseudoplatanus" />
+			<key key="species:de" value="Berg-Ahorn" />
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Acer campestre" de.name="Feld-Ahorn" >
+		    <key key="genus" value="Acer" />
+			<key key="genus:de" value="Ahorn" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Acer campestre" />
+			<key key="species:de" value="Feld-Ahorn" />
+			<reference ref="Baumdetails" />
+		</item>		
+		<item name="Acer platanoides" de.name="Spitz-Ahorn" >
+		    <key key="genus" value="Acer" />
+			<key key="genus:de" value="Ahorn" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Acer platanoides" />
+			<key key="species:de" value="Spitz-Ahorn" />
+			<reference ref="Baumdetails" />
+		</item>
+	</group>
+		
+	<group name="Malus" de.name="Apfel" icon="presets/landmark/trees_broad_leaved.svg" >
+		<item name="Malus domestica" de.name="Kulturapfel" >
+			<key key="genus" value="Malus" />
+			<key key="genus:de" value="Apfel" />
+			<key key="species" value="Malus domestica" />
+			<key key="species:de" value="Apfel" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Malus x zumi" de.name="Zierapfel" >
+			<key key="genus" value="Malus" />
+			<key key="genus:de" value="Apfel" />
+			<key key="species" value="Malus x zumi" />
+			<key key="species:de" value="Zierapfel" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<reference ref="Baumdetails" />
+		</item>			
+	</group>
+	
+	<item name="Betula" de.name="Birke" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Betula" />
+		<key key="genus:de" value="Birke" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>	
+	
+	<item name="Pyrus" de.name="Birne" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Pyrus" />
+		<key key="genus:de" value="Birne" />
+		<key key="species" value="Pyrus pyraster" />
+		<key key="species:de" value="Gemeine Holzbirne" />	
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<group name="Fagus" de.name="Buche" icon="presets/landmark/trees_broad_leaved.svg" >
+		<item name="other" de.name="allgemein" >
+			<key key="genus" value="Fagus" />
+			<key key="genus:de" value="Buche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />			
+			<text key="species" text="Baumart" />
+			<text key="species:de" text="Baumart (deutsch)" />				
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Fagus sylvatica purpurea" de.name="Blutbuche" >
+		    <key key="genus" value="Fagus" />
+			<key key="genus:de" value="Buche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Fagus sylvatica purpurea" />
+			<key key="species:de" value="Blutbuche" />
+			<reference ref="Baumdetails" />
+		</item>	
+		<item name="Carpinus" de.name="Hainbuche" >
+			<key key="genus" value="Carpinus" />
+			<key key="genus:de" value="Hainbuche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Carpinus betulus" />
+			<key key="species:de" value="Gemeine Hainbuche" />			
+			<reference ref="Baumdetails" />
+	</item>
+		<item name="Fagus sylvatica" de.name="Rotbuche" >
+		    <key key="genus" value="Fagus" />
+			<key key="genus:de" value="Buche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Fagus sylvatica" />
+			<key key="species:de" value="Rotbuche" />
+			<reference ref="Baumdetails" />
+		</item>	
+		<item name="Fagus sylvatica Asplenifolia" de.name="Schlitzblättrige Buche" >
+		    <key key="genus" value="Fagus" />
+			<key key="genus:de" value="Buche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Fagus sylvatica Asplenifolia" />
+			<key key="species:de" value="Schlitzblättrige Buche" />
+			<reference ref="Baumdetails" />
+		</item>			
+		<item name="Fagus sylvatica Atropunicea" de.name="Veredelte Blutbuche" >
+		    <key key="genus" value="Fagus" />
+			<key key="genus:de" value="Buche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Fagus sylvatica purpurea" />
+			<key key="species:de" value="Veredelte Blutbuche" />
+			<reference ref="Baumdetails" />
+		</item>				
+	</group>
+	
+	<item name="Taxus" de.name="Eibe" icon="presets/landmark/trees_conifer.svg" >
+	    <key key="genus" value="Taxus" />
+		<key key="genus:de" value="Eibe" />
+		<key key="leaf_type" value="needleleaved" />
+        <key key="leaf_cycle" value="evergreen" />
+		<key key="species" value="Taxus baccata" />
+		<key key="species:de" value="Gemeine Eibe" />
+		<reference ref="Baumdetails" />
+	</item>
+
+	<group name="Quercus" de.name="Eiche" icon="presets/landmark/trees_broad_leaved.svg" >
+		<item name="other" de.name="allgemein" >
+			<key key="genus" value="Quercus" />
+			<key key="genus:de" value="Eiche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<text key="species" text="Baumart" />
+			<text key="species:de" text="Baumart (deutsch)" />			
+			<reference ref="Baumdetails" />
+		</item>	
+		<item name="Quercus rubra" de.name="Amerikanische Roteiche" >
+			<key key="genus" value="Quercus" />
+			<key key="genus:de" value="Eiche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Quercus rubra" />
+			<key key="species:de" value="Amerikanische Roteiche" />			
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Quercus coccinea" de.name="Scharlach-Eiche" >
+			<key key="genus" value="Quercus" />
+			<key key="genus:de" value="Eiche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Quercus coccinea" />
+			<key key="species:de" value="Scharlach-Eiche" />			
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Quercus robur" de.name="Stiel-Eiche" >
+			<key key="genus" value="Quercus" />
+			<key key="genus:de" value="Eiche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Quercus robur" />
+			<key key="species:de" value="Stiel-Eiche" />			
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Quercus palustris" de.name="Sumpf-Eiche" >
+			<key key="genus" value="Quercus" />
+			<key key="genus:de" value="Eiche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Quercus palustris" />
+			<key key="species:de" value="Sumpf-Eiche" />			
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Quercus cerris" de.name="Zerr-Eiche" >
+			<key key="genus" value="Quercus" />
+			<key key="genus:de" value="Eiche" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Quercus cerris" />
+			<key key="species:de" value="Zerr-Eiche" />			
+			<reference ref="Baumdetails" />
+		</item>
+	</group>
+	
+	<item name="Fraxinus" de.name="Esche" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Fraxinus" />
+		<key key="genus:de" value="Esche" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Fraxinus excelsior" />
+		<key key="species:de" value="Gemeine Esche" />	
+		<reference ref="Baumdetails" />
+	</item>
+		
+	<item name="Picea" de.name="Fichte" icon="presets/landmark/trees_conifer.svg" >
+		<key key="genus" value="Picea" />
+		<key key="genus:de" value="Fichte" />
+		<key key="leaf_type" value="needleleaved" />
+        <key key="leaf_cycle" value="evergreen" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>			
+		
+	<item name="Ginkgo" de.name="Ginkgo" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Ginkgo" />
+		<key key="genus:de" value="Ginkgo" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Ginkgo biloba" />
+		<key key="species:de" value="Ginkgo" />	
+		<reference ref="Baumdetails" />
+	</item>
+
+	<item name="Corylus" de.name="Hasel" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Corylus" />
+		<key key="genus:de" value="Hasel" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Corylus colurna" />
+		<key key="species:de" value="Baum-Hasel" />	
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<group name="Castanea" de.name="Kastanie" icon="presets/landmark/trees_broad_leaved.svg" >
+		<item name="Castanea sativa" de.name="Eßkastanie" >
+			<key key="genus" value="Castanea" />
+			<key key="genus:de" value="Kastanie" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Castanea sativa" />
+			<key key="species:de" value="Eßkastanie" />		
+			<reference ref="Baumdetails" />
+		</item>	
+		<item name="Aesculus hippocastanum" de.name="Roßkastanie" >	
+			<key key="genus" value="Aesculus" />
+			<key key="genus:de" value="Roßkastanie" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Aesculus hippocastanum" />
+			<key key="species:de" value="Roßkastanie" />			
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Aesculus hippocastanum Baumannii" de.name="Nichtfruchtende Roßkastanie" >	
+			<key key="genus" value="Aesculus" />
+			<key key="genus:de" value="Roßkastanie" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Aesculus hippocastanum Baumannii" />
+			<key key="species:de" value="Nichtfruchtende Roßkastanie" />			
+			<reference ref="Baumdetails" />
+		</item>		
+	</group>	
+
+	<item name="Prunus avium" de.name="Kirsche" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Prunus" />
+		<key key="genus:de" value="Prunus" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Prunus avium" />
+		<key key="species:de" value="Hauskirsche" />				
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Larix" de.name="Lärche" icon="presets/landmark/trees_conifer.svg" >
+		<key key="genus" value="Larix" />
+		<key key="genus:de" value="Lärche" />
+		<key key="leaf_type" value="needleleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>	
+	
+	<group name="Tilia" de.name="Linde" icon="presets/landmark/trees_broad_leaved.svg" >
+		<item name="other" de.name="allgemein" >
+			<key key="genus" value="Tilia" />
+			<key key="genus:de" value="Linde" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<text key="species" text="Baumart" />
+			<text key="species:de" text="Baumart (deutsch)" />	
+			<reference ref="Baumdetails" />
+		</item>	
+		<item name="Tilia intermedia" de.name="Holländische Linde" >
+			<key key="genus" value="Tilia" />
+			<key key="genus:de" value="Linde" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Tilia x intermedia" />
+			<key key="species:de" value="Holländische Linde" />		
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Tilia intermedia Pallida" de.name="Kaiserlinde" >
+			<key key="genus" value="Tilia" />
+			<key key="genus:de" value="Linde" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Tilia x intermedia Pallida" />
+			<key key="species:de" value="Kaiserlinde" />		
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Tilia euchlora" de.name="Krim-Linde" >
+			<key key="genus" value="Tilia" />
+			<key key="genus:de" value="Linde" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Tilia x euchlora" />
+			<key key="species:de" value="Krim-Linde" />		
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Tilia platyphyllos" de.name="Sommer-Linde" >
+			<key key="genus" value="Tilia" />
+			<key key="genus:de" value="Linde" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Tilia platyphyllos" />
+			<key key="species:de" value="Sommer-Linde" />		
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Tilia cordata" de.name="Winter-Linde" >
+			<key key="genus" value="Tilia" />
+			<key key="genus:de" value="Linde" />
+			<key key="leaf_type" value="broadleaved" />
+			<key key="leaf_cycle" value="deciduous" />
+			<key key="species" value="Tilia cordata" />
+			<key key="species:de" value="Winter-Linde" />		
+			<reference ref="Baumdetails" />
+		</item>		
+	</group>
+	
+	<group name="Sequoia" de.name="Mammutbaum" icon="presets/landmark/trees_conifer.svg" >
+		<item name="Sequoia sempervirens" de.name="Küstenmammutbaum" >
+			<key key="genus" value="Sequoia" />
+			<key key="genus:de" value="Mammutbaum" />
+			<key key="leaf_type" value="needleleaved" />
+			<key key="leaf_cycle" value="evergreen" />
+			<key key="species" value="Sequoia sempervirens" />
+			<key key="species:de" value="Küstenmammutbaum" />		
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Sequoiadendron giganteum" de.name="Riesenmammutbaum" >
+			<key key="genus" value="Sequoiadendron" />
+			<key key="genus:de" value="Mammutbaum" />
+			<key key="leaf_type" value="needleleaved" />
+			<key key="leaf_cycle" value="evergreen" />
+			<key key="species" value="Sequoiadendron giganteum" />
+			<key key="species:de" value="Riesenmammutbaum" />		
+			<reference ref="Baumdetails" />
+		</item>
+		<item name="Metasequoia glyptostroboides" de.name="Urweltmammutbaum" >
+			<key key="genus" value="Metasequoia" />
+			<key key="genus:de" value="Mammutbaum" />
+			<key key="leaf_type" value="needleleaved" />
+			<key key="leaf_cycle" value="evergreen" />
+			<key key="species" value="Metasequoia glyptostroboides" />
+			<key key="species:de" value="Urweltmammutbaum" />		
+			<reference ref="Baumdetails" />
+		</item>		
+	</group>
+	
+	<item name="Populus" de.name="Pappel" icon="presets/landmark/trees_broad_leaved.svg" >>
+	    <key key="genus" value="Populus" />
+		<key key="genus:de" value="Pappel" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Prunus domestica" de.name="Pflaume" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Prunus" />
+		<key key="genus:de" value="Prunus" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Prunus domestica" />
+		<key key="species:de" value="Kultur-Pflaume" />				
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Platanus" de.name="Platane" icon="presets/landmark/trees_broad_leaved.svg" >>
+	    <key key="genus" value="Platanus" />
+		<key key="genus:de" value="Platane" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Platanus x hybrida" />
+		<key key="species:de" value="Gewöhnliche Platane" />		
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Robinia" de.name="Robinie" icon="presets/landmark/trees_broad_leaved.svg" >>
+	    <key key="genus" value="Robinia" />
+		<key key="genus:de" value="Robinie" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Robinia pseudoacacia" />
+		<key key="species:de" value="Gewöhnliche Robinie" />		
+		<reference ref="Baumdetails" />
+	</item>
+
+	<item name="Taxodium" de.name="Sumpfzypresse" icon="presets/landmark/trees_conifer.svg" >
+		<key key="genus" value="Taxodium" />
+		<key key="genus:de" value="Sumpfzypresse" />
+		<key key="leaf_type" value="needleleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Taxodium distichum" />
+		<key key="species:de" value="Echte Sumpfzypresse" />		
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Abies" de.name="Tanne" icon="presets/landmark/trees_conifer.svg" >
+		<key key="genus" value="Abies" />
+		<key key="genus:de" value="Tanne" />
+		<key key="leaf_type" value="needleleaved" />
+        <key key="leaf_cycle" value="evergreen" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>	
+	
+	<item name="Catalpa" de.name="Trompetenbaum" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Catalpa" />
+		<key key="genus:de" value="Trompetenbaum" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>	
+	
+	<item name="Liriodendron" de.name="Tulpenbaum" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Liriodendron" />
+		<key key="genus:de" value="Tulpenbaum" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Liriodendron tulipifera" />
+		<key key="species:de" value="Tulpenbaum" />
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Ulmus" de.name="Ulme" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Ulmus" />
+		<key key="genus:de" value="Ulme" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>	
+		
+	<item name="Juglans" de.name="Walnuß" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Juglans" />
+		<key key="genus:de" value="Walnuß" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<key key="species" value="Juglans regia" />
+		<key key="species:de" value="Walnuß" />
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<item name="Salix" de.name="Weide" icon="presets/landmark/trees_broad_leaved.svg" >
+	    <key key="genus" value="Salix" />
+		<key key="genus:de" value="Weide" />
+		<key key="leaf_type" value="broadleaved" />
+        <key key="leaf_cycle" value="deciduous" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>
+	
+	<group name="Cedrus" de.name="Zeder" icon="presets/landmark/trees_conifer.svg" >	
+		<item name="Cedrus atlantica" de.name="Blaue Atlaszeder" >
+			<key key="genus" value="Cedrus" />
+			<key key="genus:de" value="Zeder" />
+			<key key="leaf_type" value="needleleaved" />
+			<key key="leaf_cycle" value="evergreen" />
+			<key key="species" value="Cedrus atlantica Glauca" />
+			<key key="species:de" value="Blaue Atlaszeder" />		
+			<reference ref="Baumdetails" />
+		</item>	
+		<item name="Cedrus libani" de.name="Libanon-Zeder" >
+			<key key="genus" value="Cedrus" />
+			<key key="genus:de" value="Zeder" />
+			<key key="leaf_type" value="needleleaved" />
+			<key key="leaf_cycle" value="evergreen" />
+			<key key="species" value="Cedrus libani" />
+			<key key="species:de" value="Libanon-Zeder" />		
+			<reference ref="Baumdetails" />
+		</item>
+	</group>
+	
+	
+	<item name="other" de.name="andere" icon="presets/landmark/trees.svg" >
+		<text key="genus" text="Baumgattung" />
+		<text key="genus:de" text="Baumgattung (deutsch)" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+        <combo key="leaf_type" text="Type" de.text="Blattart" values_searchable="true" >
+            <list_entry value="broadleaved" display_value="Laubbaum" />
+            <list_entry value="needleleaved" display_value="Nadelbaum" />
+        </combo>		
+        <combo key="leaf_cycle" text="Cycle" values_searchable="true" >
+            <list_entry value="deciduous" display_value="laubabwerfend" />
+            <list_entry value="evergreen" display_value="immergrün" />
+        </combo>
+		<reference ref="Baumdetails" />
+	</item>
+	
+ 
+</chunk>	
+
+<chunk id="Baumdetails">
+	<combo key="natural" text="natural" de.text="Art" default="tree" delete_if_empty="true" >
+		<list_entry value="tree" display_value="Einzelbaum" />
+		<list_entry value="tree_row" display_value="Baumreihe" />
+		<list_entry value="wood" display_value="Wald" />
+	</combo>  	
+	<combo key="denotation" text="denotation" de.text="Bedeutung" default="" delete_if_empty="true" >
+		<list_entry value="natural_monument" display_value="Naturdenkmal" />
+		<list_entry value="landmark" display_value="Landmarke" />
+		<list_entry value="urban" display_value="Stadtbaum" />
+	</combo>  
+	<check key="natural_protection" text="natural_monument" de.text="Naturdenkmal (protection)" default="" value_on="natural_monument" delete_if_empty="true"  />
+	<space />
+
+    <text key="ref" text="ref" de.text="Referenznummer" default="" delete_if_empty="true"/>
+    <text key="circumference" text="circumference" de.text="Umfang" default="" delete_if_empty="true" />
+    <text key="height" text="height" de.text="Höhe" default="" delete_if_empty="true" />
+    <text key="start_date" text="year of planting" de.text="Pflanzjahr" default="" delete_if_empty="true"/>
+	<space />
+    <text key="name" text="Name" />
+
+</chunk>
+	
+<group name="natural monuments" de.name="Naturdenkmale" icon="presets/landmark/trees.svg" >
+        <group name="Tree" de.name="Baum" icon="presets/landmark/trees.svg" preset_name_label="true">
+            <reference ref="Baumart" />
+        </group>
+ 
+        <item name="Stone" de.name="Findling" icon="presets/misc/stone.svg" type="node,closedway" preset_name_label="true">
+            <link href="http://wiki.openstreetmap.org/wiki/Tag:natural=stone"
+                  cs.href="http://wiki.openstreetmap.org/wiki/Cs:Tag:natural=stone"
+                  de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:natural=stone"
+                  es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:natural=stone"
+                  fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:natural=stone"
+                  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=stone" />
+            <label text="A single notable free-standing rock, which may differ from the composition of the terrain it lies in." />
+            <space />
+            <key key="natural" value="stone" />
+            <text key="name" text="Name" />			
+			<check key="natural_protection" text="natural_monument" de.text="Naturdenkmal (protection)" default="" value_on="natural_monument" delete_if_empty="true"  />
+			<text key="ref" text="ref" de.text="Referenznummer" default="" delete_if_empty="true"/>
+
+            <optional>
+                <text key="height" text="Height (meters)" length="7" />
+                <text key="width" text="Width (meters)" />
+            </optional>
+        </item> <!-- Stone -->
+ 
+    </group>
+
+</presets>
