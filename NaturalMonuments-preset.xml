@@ -285,6 +285,16 @@
 			<reference ref="Baumdetails" />
 		</item>		
 	</group>	
+	
+	<item name="Pinus" de.name="Kiefer" icon="presets/landmark/trees_conifer.svg" >
+		<key key="genus" value="Pinus" />
+		<key key="genus:de" value="Kiefer" />
+		<key key="leaf_type" value="needleleaved" />
+        <key key="leaf_cycle" value="evergreen" />
+		<text key="species" text="Baumart" />
+		<text key="species:de" text="Baumart (deutsch)" />	
+		<reference ref="Baumdetails" />
+	</item>	
 
 	<item name="Prunus avium" de.name="Kirsche" icon="presets/landmark/trees_broad_leaved.svg" >
 	    <key key="genus" value="Prunus" />
