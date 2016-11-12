@@ -272,7 +272,7 @@
 			<key key="leaf_type" value="broadleaved" />
 			<key key="leaf_cycle" value="deciduous" />
 			<key key="species" value="Aesculus hippocastanum" />
-			<key key="species:de" value="Rosskastanie" />			
+			<key key="species:de" value="Gewöhnliche Rosskastanie" />			
 			<reference ref="Baumdetails" />
 		</item>
 		<item name="Aesculus hippocastanum Baumannii" de.name="Nichtfruchtende Rosskastanie" >	
